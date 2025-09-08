@@ -53,11 +53,11 @@ You will see the full-page screenshot embedded as a Base64 image.
 ![Alt Text](screenshots/extent_report_ashot_example.png)
 ---
 ## Tools & Libraries
-Java
-Selenium WebDriver
-TestNG
-AShot
-ExtentReports
+- Java
+- Selenium WebDriver
+- TestNG
+- AShot
+- ExtentReports
 
 
 
