@@ -16,15 +16,15 @@ A small Selenium + TestNG demo showing how to capture **full-page screenshots** 
 ## Project Structure
 ```
 ashot-extent-integration/
-├─src/
-│ ├─main/
+├─ src/
+│ ├─ main/
 │ │ ├─ java/
 │ │ │ ├─ pages/
 │ │ │ │ └─ PracticeHomePage.java
-│ │ │ └─ utils/
-│ │ │ ├─ ScreenshotUtil.java
+│ │ │ ├─ utils/
+│ │ │ └─ ScreenshotUtil.java
 │ │ │ └─ SeleniumUtils.java
-│ └─ test/
+│ ├─ test/
 │ └─ java/
 │ └─ tests/
 │ └─ PracticeHomePageScreenshotTest.java
@@ -34,18 +34,28 @@ ashot-extent-integration/
 
 ## Getting Started
 
-1. **Clone the repository:**
+1.**Clone Repository:**
 ```bash
 git clone https://github.com/My3Hub/selenium-fullpage-screenshot.git
+---
 Install dependencies:
 Make sure you have Maven and Java installed. All dependencies are in pom.xml.
 
-2. **Run the test:**
-Execute the TestNG test PracticeHomePageScreenshotTest.java.
+2.**Run the test:**
+ Execute the TestNG test `PracticeHomePageScreenshotTest.java`.  
 
-3. **View the report:**
+3.**View the report:**  
 Open the generated Extent Report at:
 target/extent-reports/spark/index.html
 You will see the full-page screenshot embedded as a Base64 image.
+
+##Tools & Libraries
+Java
+Selenium WebDriver
+TestNG
+AShot
+ExtentReports
+
+
 
 
