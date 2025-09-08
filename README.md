@@ -14,22 +14,22 @@ A small Selenium + TestNG demo showing how to capture **full-page screenshots** 
 ---
 
 ## Project Structure
-
-fullpage-screenshot-demo/
-│
-├─ src/main/java/
-│ ├─ pages/
-│ │ └─ PracticeHomePage.java # Page Object Model for demo site
-│ ├─ utils/
-│ │ ├─ ScreenshotUtil.java # Capture + Base64 + log helper
-│ │ └─ SeleniumUtils.java # Wait helper methods
-│
-├─ src/test/java/
+```
+ashot-extent-integration/
+├─src/
+│ ├─main/
+│ │ ├─ java/
+│ │ │ ├─ pages/
+│ │ │ │ └─ PracticeHomePage.java
+│ │ │ └─ utils/
+│ │ │ ├─ ScreenshotUtil.java
+│ │ │ └─ SeleniumUtils.java
+│ └─ test/
+│ └─ java/
 │ └─ tests/
-│ └─ PracticeHomePageScreenshotTest.java # TestNG test class
-│
-├─ pom.xml # Maven dependencies
-
+│ └─ PracticeHomePageScreenshotTest.java
+├─ pom.xml
+```
 ---
 
 ## Getting Started
