@@ -34,22 +34,25 @@ ashot-extent-integration/
 
 ## Getting Started
 
-1.**Clone Repository:**
-```bash
+**1.Clone Repository:**
 git clone https://github.com/My3Hub/selenium-fullpage-screenshot.git
----
-Install dependencies:
+
+**2.Install dependencies:**
 Make sure you have Maven and Java installed. All dependencies are in pom.xml.
 
-2.**Run the test:**
+**3.Run the test:**
  Execute the TestNG test `PracticeHomePageScreenshotTest.java`.  
 
-3.**View the report:**  
+**4.View the report:**  
 Open the generated Extent Report at:
 target/extent-reports/spark/index.html
 You will see the full-page screenshot embedded as a Base64 image.
 
-##Tools & Libraries
+---
+## Screenshot Example
+
+---
+## Tools & Libraries
 Java
 Selenium WebDriver
 TestNG
